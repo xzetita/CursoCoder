@@ -1,0 +1,362 @@
+
+/* Contenedor padre*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+}
+ 
+ .GRID{
+     display: grid;
+     grid-template-columns: 1fr;
+     grid-template-areas: "header" 
+                           "body"
+                           "footer";
+    grid-template-rows: auto;
+ }
+ /*Letras en negrita*/
+ .negrita {
+    font-weight: bold;
+    background-color: rgb(10, 4, 4);
+    color: rgb(235, 14, 179);
+   text-decoration: none;
+   font-size: 2rem;
+}
+.negrita2 {
+    font-weight: bold;
+}
+/*Header-NAV*/
+.encabezado {
+    width: 100%;
+    height: 20%;
+}
+header {
+    height: 100px;
+    width: 100%;
+    background-image: url("../imagen/imagen.jpeg");
+    border: 1px solid black;
+    border-radius: 7px;
+    box-shadow: -2px 0px 68px -7px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: -2px 0px 68px -7px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: -2px 0px 68px -7px rgba(0, 0, 0, 0.75);
+}
+header h1 {
+    color: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+header div {
+    display: flex;
+    align-items: flex-end;
+    height: 40%;
+    justify-content: flex-end;
+    gap: 10px;
+    
+}
+/* Orden de los encabezados e imagenes*/
+/*Color del body general*/
+body {
+    background-color: aquamarine;
+}
+/*Encabezado*/
+.parra {
+    color: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.seccion p {
+    width: 30%;
+    height: 20%;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    background-color: #2E86C1;
+    border: 1px solid black;
+    border-radius: 7px;
+    box-shadow: -2px 0px 68px -7px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: -2px 0px 68px -7px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: -2px 0px 68px -7px rgba(0, 0, 0, 0.75);
+}
+/* Imagenes index y*/
+.divimg {
+    margin: 0 auto;
+    width: 80%;
+    height: 50%;
+    padding-top: 20px;
+    
+}
+
+.pc1 {
+    height: 70%;
+    width: 60%;
+    border: 4px solid black;
+}
+.pc2 {
+    height: 70%;
+    width: 60%;
+    border: 4px solid black ;
+}
+/*Imagenes "nosotros"*/
+.imagenes{
+overflow-x: auto;
+display: flex;
+}
+.imagenes .item {
+width: 300px;
+height: 200px;
+margin: 30px;
+}
+/*Publicidad*/
+.publicidad {
+    color: blueviolet;
+    margin-top: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+}
+/* Servicios */
+.servimg {
+    margin: 10px auto;
+    display: grid;
+    width: 60%;
+    height: 100%;
+   grid-template-columns: auto auto;
+   grid-template-rows: auto 100px;
+}
+/* Encabezado*/
+.titserv {
+    background-color: blue;
+    color: red;
+    display: flex;
+   justify-content: center;
+   align-items: center;
+   width: 50%;
+   height: 100%;
+   margin-left: 25%;
+ }
+ .indimagenes {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    gap: 20px;
+}
+ /*Botones Servicios*/
+ .botones { 
+    display: flex;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    gap: 100px
+}
+.boton1 {
+    background-color: green;
+    font-size: 22px;
+    border-right: 30%;
+    border-radius: 30%;
+    font-weight: green;
+
+}
+.boton2 {
+    background-color: red;
+    font-size: 22px;
+    border-right: 30%;
+    border-radius: 30%;
+    font-weight: red;
+
+}
+.boton3 {
+    background-color: pink;
+    font-size: 22px;
+    border-right: 30%;
+    border-radius: 30%;
+
+}
+/*Galeria*/
+.main h2 {
+    margin: 0 auto;
+    width: 30%;
+    height: 20%;
+    background-color: aqua;
+    border-radius: 7px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: -2px 0px 68px -7px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: -2px 0px 68px -7px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: -2px 0px 68px -7px rgba(0, 0, 0, 0.75);
+}
+.main h3 {
+    width: 30%;
+    height: 20%;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    background-color: #2E86C1;
+    border: 1px solid black;
+    border-radius: 7px;
+    box-shadow: -2px 0px 68px -7px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: -2px 0px 68px -7px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: -2px 0px 68px -7px rgba(0, 0, 0, 0.75);
+}
+.main div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 80%;
+    gap: 20px;
+}
+.main h4 {
+    margin: 0 auto;
+    width: 30%;
+    height: 20%;
+    background-color: rgb(173, 207, 19);
+    border-radius: 7px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: -2px 0px 68px -7px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: -2px 0px 68px -7px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: -2px 0px 68px -7px rgba(0, 0, 0, 0.75);
+}
+.h2g {
+    margin: 0 auto;
+    width: 30%;
+    height: 20%;
+    background-color: rgb(255, 0, 149);
+    border-radius: 7px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: -2px 0px 68px -7px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: -2px 0px 68px -7px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: -2px 0px 68px -7px rgba(0, 0, 0, 0.75);
+
+
+}
+.fs1 {
+    display: inline-block;
+    color: aliceblue;
+    text-decoration: none;
+    padding: 20px 50px;
+    border: 3px solid rgb(15, 123, 185);
+    border-radius: 10px;
+}
+.boton4 {
+    display:inline-flex;
+    color: rgb(32, 192, 11);
+    text-decoration: none;
+    padding: 10px 20px;
+    border: 3px solid rgb(15, 123, 185);
+    border-radius: 10px;
+}
+.boton5 {
+    display: inline-block;
+    color: aliceblue;
+    text-decoration: none;
+    padding: 10px 20px;
+    border: 3px solid rgb(15, 123, 185);
+    border-radius: 10px;
+}
+.boton6 {
+    display: inline-block;
+    color: aliceblue;
+    text-decoration: none;
+    padding: 10px 20px;
+    border: 3px solid  rgb(15, 123, 185);
+    border-radius: 10px;
+}
+.boton7 {
+    display: inline-block;
+    color: aliceblue;
+    text-decoration: none;
+    padding: 20px 50px;
+    border: 3px solid blue;
+    border-radius: 10px;
+
+}
+.mainct { 
+    margin: 0 auto;
+    width: 30%;
+    height: 20%;
+    background-color: rgb(19, 207, 44);
+    border-radius: 7px;
+    display: flex;
+    flex-direction:column ;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    box-shadow: -2px 0px 68px -7px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: -2px 0px 68px -7px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: -2px 0px 68px -7px rgba(0, 0, 0, 0.75);
+
+}
+/* Galeria*/
+.contenedorPadre {
+    margin: 10px auto;
+    display: grid;
+    width: 60%;
+    height: 100%;
+   grid-template-columns: auto auto auto;
+   grid-template-rows: auto auto 100px;
+   gap: 10px;
+   
+}
+.contenedorImagenes {
+    width: 100%;
+    height: 500px;
+    border: 3px solid black;
+    border-radius: 20px;
+    
+  }
+  .contenedorImagenes img {
+      width: 100%;
+      height: 100%;
+      border-radius: 20px;
+
+      /*Footer*/
+  }
+  footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.foot {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    padding-top: 10px;
+}
+@media screen and (max-width: 800px){
+    .negrita {
+        
+       font-size: 1rem;
+    }
+    
+
+}
+
+
+
+
+
+
+
+ 
+ 
