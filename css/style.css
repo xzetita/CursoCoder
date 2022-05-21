@@ -251,15 +251,14 @@ margin: 30px;
 }
 .fs1 {
     display: inline-block;
-    color: aliceblue;
     text-decoration: none;
     padding: 20px 50px;
     border: 3px solid rgb(15, 123, 185);
     border-radius: 10px;
 }
 .boton4 {
-    display:inline-flex;
-    color: rgb(32, 192, 11);
+    display:inline-block;
+   
     text-decoration: none;
     padding: 10px 20px;
     border: 3px solid rgb(15, 123, 185);
@@ -267,7 +266,7 @@ margin: 30px;
 }
 .boton5 {
     display: inline-block;
-    color: aliceblue;
+    
     text-decoration: none;
     padding: 10px 20px;
     border: 3px solid rgb(15, 123, 185);
@@ -275,7 +274,6 @@ margin: 30px;
 }
 .boton6 {
     display: inline-block;
-    color: aliceblue;
     text-decoration: none;
     padding: 10px 20px;
     border: 3px solid  rgb(15, 123, 185);
@@ -283,7 +281,6 @@ margin: 30px;
 }
 .boton7 {
     display: inline-block;
-    color: aliceblue;
     text-decoration: none;
     padding: 20px 50px;
     border: 3px solid blue;
@@ -292,8 +289,6 @@ margin: 30px;
 }
 .mainct { 
     margin: 0 auto;
-    width: 30%;
-    height: 20%;
     background-color: rgb(19, 207, 44);
     border-radius: 7px;
     display: flex;
@@ -319,7 +314,7 @@ margin: 30px;
 }
 .contenedorImagenes {
     width: 100%;
-    height: 500px;
+    height: 100%;
     border: 3px solid black;
     border-radius: 20px;
     
