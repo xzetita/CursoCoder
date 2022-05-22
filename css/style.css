@@ -151,13 +151,18 @@ margin: 30px;
     gap: 20px;
 }
  /*Botones Servicios*/
- .botones { 
+ .botones:hover { 
     display: flex;
     align-items: center;
     height: 100%;
     width: 100%;
     justify-content: center;
-    gap: 100px
+    gap: 100px;
+    
+}
+.botones::before{
+    height: 380%;
+    background-color: white;
 }
 .boton1 {
     background-color: green;
@@ -256,31 +261,50 @@ margin: 30px;
     border: 3px solid rgb(15, 123, 185);
     border-radius: 10px;
 }
+<<<<<<< HEAD
 .boton4 {
     display:inline-block;
    
+=======
+.boton4:hover {
+    display:inline-flex;
+    color: rgb(32, 192, 11);
+>>>>>>> rama
     text-decoration: none;
     padding: 10px 20px;
     border: 3px solid rgb(15, 123, 185);
     border-radius: 10px;
 }
-.boton5 {
+.boton5:hover {
     display: inline-block;
+<<<<<<< HEAD
     
+=======
+    background-color: blueviolet;
+>>>>>>> rama
     text-decoration: none;
     padding: 10px 20px;
     border: 3px solid rgb(15, 123, 185);
     border-radius: 10px;
+    
 }
-.boton6 {
+.boton6:hover {
     display: inline-block;
+<<<<<<< HEAD
+=======
+    background-color: blueviolet;
+>>>>>>> rama
     text-decoration: none;
     padding: 10px 20px;
     border: 3px solid  rgb(15, 123, 185);
     border-radius: 10px;
 }
-.boton7 {
+.boton7:hover {
     display: inline-block;
+<<<<<<< HEAD
+=======
+    background-color: blueviolet;
+>>>>>>> rama
     text-decoration: none;
     padding: 20px 50px;
     border: 3px solid blue;
@@ -289,6 +313,11 @@ margin: 30px;
 }
 .mainct { 
     margin: 0 auto;
+<<<<<<< HEAD
+=======
+    width: 100%;
+    height: 100%;
+>>>>>>> rama
     background-color: rgb(19, 207, 44);
     border-radius: 7px;
     display: flex;
