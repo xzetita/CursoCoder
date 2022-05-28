@@ -4,30 +4,20 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Ubuntu', sans-serif;
 }
-.encabezado {
-    display: flex;
-    flex-direction: column;
-}
-
-.encabezado nav {
-    display: flex;
-    justify-content:end;
-    flex-direction: column;
-    align-items: flex-end; 
-    background-color: black;
-    gap: 20px;
-}
-
 .encabezado nav img {
-    width: 10%;
+    width: 40%;
 }
-
 .navbar {
     display: flex;
     list-style: none;
     gap: 25px;
+    flex-direction: row;
+}
+.navbarNav {
+    float: right;
+    justify-content: end;
+    
 }
 
 .navbar li a {
@@ -55,10 +45,6 @@
     font-weight: bold;
 }
 /* Orden de los encabezados e imagenes*/
-/*Color del body general*/
-body {
-    background-color: aquamarine;
-}
 /*Encabezado*/
 .parra {
     color: red;
@@ -67,8 +53,8 @@ body {
     justify-content: center;
 }
 .seccion p {
-    width: 30%;
-    height: 20%;
+    width: 50%;
+    height: 40%;
     color: black;
     display: flex;
     align-items: center;
@@ -84,31 +70,27 @@ body {
 /* Imagenes index y*/
 .divimg {
     margin: 0 auto;
-    width: 80%;
-    height: 50%;
-    padding-top: 20px;
-    
+    width: 60%;
+    height: 30%;
+    padding-top: 20px;   
 }
 
 .pc1 {
-    height: 70%;
-    width: 60%;
+    height: 60%;
+    width: 50%;
     border: 4px solid black;
 }
 .pc2 {
-    height: 70%;
-    width: 60%;
+    height: 60%;
+    width: 50%;
     border: 4px solid black ;
 }
 /*Imagenes "nosotros"*/
-.imagenes{
-overflow-x: auto;
-display: flex;
-}
-.imagenes .item {
-width: 300px;
-height: 200px;
-margin: 30px;
+.divnos {
+ display: flex;
+ justify-content:end;
+ flex-direction: row;
+ 
 }
 /*Publicidad*/
 .publicidad {
