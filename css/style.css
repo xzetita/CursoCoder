@@ -1,4 +1,4 @@
-
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css");
 /* Contenedor padre*/
 *{
     margin: 0;
@@ -6,7 +6,35 @@
     box-sizing: border-box;
     font-family: 'Ubuntu', sans-serif;
 }
- 
+.encabezado {
+    display: flex;
+    flex-direction: column;
+}
+
+.encabezado nav {
+    display: flex;
+    justify-content:end;
+    flex-direction: column;
+    align-items: flex-end; 
+    background-color: black;
+    gap: 20px;
+}
+
+.encabezado nav img {
+    width: 10%;
+}
+
+.navbar {
+    display: flex;
+    list-style: none;
+    gap: 25px;
+}
+
+.navbar li a {
+    text-decoration: none;
+    font-size: 1rem;
+    color: white;
+}
  .GRID{
      display: grid;
      grid-template-columns: 1fr;
@@ -25,35 +53,6 @@
 }
 .negrita2 {
     font-weight: bold;
-}
-/*Header-NAV*/
-.encabezado {
-    width: 100%;
-    height: 20%;
-}
-header {
-    height: 100px;
-    width: 100%;
-    background-image: url("../imagen/imagen.jpeg");
-    border: 1px solid black;
-    border-radius: 7px;
-    box-shadow: -2px 0px 68px -7px rgba(0, 0, 0, 0.75);
-    -webkit-box-shadow: -2px 0px 68px -7px rgba(0, 0, 0, 0.75);
-    -moz-box-shadow: -2px 0px 68px -7px rgba(0, 0, 0, 0.75);
-}
-header h1 {
-    color: red;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-header div {
-    display: flex;
-    align-items: flex-end;
-    height: 40%;
-    justify-content: flex-end;
-    gap: 10px;
-    
 }
 /* Orden de los encabezados e imagenes*/
 /*Color del body general*/
