@@ -1,0 +1,57 @@
+/* Encabezado*/
+.titserv {
+    background-color: blue;
+    color: red;
+    display: flex;
+   justify-content: center;
+   align-items: center;
+   width: 50%;
+   height: 100%;
+   margin-left: 25%;
+ }
+ 
+.servimg {
+    margin: 10px auto;
+    display: grid;
+    width: 60%;
+    height: 100%;
+   grid-template-columns: auto auto;
+   grid-template-rows: auto 100px;
+}
+/*Botones Servicios*/
+.botones:hover { 
+    display: flex;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    gap: 100px;
+    
+}
+.botones::before{
+    height: 380%;
+    background-color: white;
+}
+.boton1 {
+    background-color: green;
+    font-size: 22px;
+    border-right: 30%;
+    border-radius: 30%;
+    font-weight: green;
+
+}
+.boton2 {
+    background-color: red;
+    font-size: 22px;
+    border-right: 30%;
+    border-radius: 30%;
+    font-weight: red;
+
+}
+.boton3 {
+    background-color: pink;
+    font-size: 22px;
+    border-right: 30%;
+    border-radius: 30%;
+
+}

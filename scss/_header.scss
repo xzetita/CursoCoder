@@ -1,0 +1,20 @@
+.encabezado nav img {
+    width: 40%;
+}
+.navbar {
+    display: flex;
+    list-style: none;
+    gap: 25px;
+    flex-direction: row;
+}
+.navbarNav {
+    float: right;
+    justify-content: end;
+    
+}
+
+.navbar li a {
+    text-decoration: none;
+    font-size: 1rem;
+    color: white;
+}
