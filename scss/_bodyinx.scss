@@ -14,7 +14,7 @@
     align-items: center;
     justify-content: center;
     margin: 0 auto;
-    background-color: #2E86C1;
+    background-color: map-get($mapa-colores, base );
     border: 1px solid black;
     border-radius: 7px;
     box-shadow: -2px 0px 68px -7px rgba(0, 0, 0, 0.75);
@@ -58,10 +58,10 @@ margin: 1,5rem;
 padding-top: 30px;
 
 .limpieza {
-    background-color: #2E86C1;
+    background-color:map-get($mapa-colores, base );
     height: 100%;
     width: 50%;
-    margin: 0 auto;
+    margin: 0 $auto;
     h2 {
         display: flex;
         background-color: rgb(0, 0, 0);

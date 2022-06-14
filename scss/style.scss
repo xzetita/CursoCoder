@@ -6,6 +6,8 @@
 @import "_bodyinx.scss";
 @import "_bodygal.scss";
 @import "_bodycon.scss";
+@import "_variables.scss";
+@import "_mixin.scss";
 /* Contenedor padre*/
 *{
     margin: 0;
@@ -19,7 +21,7 @@
      grid-template-areas: "header" 
                            "body"
                            "footer";
-    grid-template-rows: auto;
+    grid-template-rows: $auto;
  }
  /*Letras en negrita*/
  .negrita {
@@ -36,11 +38,8 @@
 .publicidad {
     color: blueviolet;
     margin-top: 5px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    background-color: black;
+    @include flexbox (column,center,center);
+   background-color: black;
 }
 /* Servicios */
 
@@ -48,14 +47,12 @@
  
 /*Galeria*/
 .main h2 {
-    margin: 0 auto;
+    margin: 0 $auto;
     width: 30%;
     height: 20%;
     background-color: aqua;
     border-radius: 7px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    @include flexbox (none,center,center);
     box-shadow: -2px 0px 68px -7px rgba(0, 0, 0, 0.75);
     -webkit-box-shadow: -2px 0px 68px -7px rgba(0, 0, 0, 0.75);
     -moz-box-shadow: -2px 0px 68px -7px rgba(0, 0, 0, 0.75);
@@ -68,7 +65,7 @@
     align-items: center;
     justify-content: center;
     margin: 0 auto;
-    background-color: #2E86C1;
+    background-color:map-get($mapa-colores, base );
     border: 1px solid black;
     border-radius: 7px;
     box-shadow: -2px 0px 68px -7px rgba(0, 0, 0, 0.75);
@@ -76,10 +73,7 @@
     -moz-box-shadow: -2px 0px 68px -7px rgba(0, 0, 0, 0.75);
 }
 .main div {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
+    @include flexbox (row,center,center);
     width: 100%;
     height: 80%;
     gap: 20px;
@@ -90,10 +84,7 @@
     height: 20%;
     background-color: rgb(173, 207, 19);
     border-radius: 7px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    @include flexbox (column,center,center);
     box-shadow: -2px 0px 68px -7px rgba(0, 0, 0, 0.75);
     -webkit-box-shadow: -2px 0px 68px -7px rgba(0, 0, 0, 0.75);
     -moz-box-shadow: -2px 0px 68px -7px rgba(0, 0, 0, 0.75);
@@ -104,9 +95,7 @@
     height: 20%;
     background-color: rgb(255, 0, 149);
     border-radius: 7px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    @include flexbox (none,center,center);
     box-shadow: -2px 0px 68px -7px rgba(0, 0, 0, 0.75);
     -webkit-box-shadow: -2px 0px 68px -7px rgba(0, 0, 0, 0.75);
     -moz-box-shadow: -2px 0px 68px -7px rgba(0, 0, 0, 0.75);
@@ -155,15 +144,12 @@
 
 }
 .mainct { 
-    margin: 0 auto;
+    margin: 0 $auto;
     width: 100%;
     height: 100%;
     background-color: rgb(19, 207, 44);
     border-radius: 7px;
-    display: flex;
-    flex-direction:column ;
-    align-items: center;
-    justify-content: center;
+    @include flexbox (column,center,center);
     gap: 20px;
     box-shadow: -2px 0px 68px -7px rgba(0, 0, 0, 0.75);
     -webkit-box-shadow: -2px 0px 68px -7px rgba(0, 0, 0, 0.75);
@@ -172,12 +158,12 @@
 }
 /* Galeria*/
 .contenedorPadre {
-    margin: 10px auto;
+    margin: 10px $auto;
     display: grid;
     width: 60%;
     height: 100%;
-   grid-template-columns: auto auto auto;
-   grid-template-rows: auto auto 100px;
+   grid-template-columns: $auto $auto $auto;
+   grid-template-rows: $auto $auto 100px;
    gap: 10px;
    
 }

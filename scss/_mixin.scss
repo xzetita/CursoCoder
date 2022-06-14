@@ -1,0 +1,6 @@
+@mixin flexbox ($valor-flexdirection,$valor-justifycontent,$valor-align-items){
+    display: flex;
+    flex-direction:$valor-flexdirection;
+    justify-content: $valor-justifycontent;
+    align-items: $valor-align-items;
+}
