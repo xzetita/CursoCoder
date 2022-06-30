@@ -38,7 +38,7 @@ footer {
   align-items: center;
   width: 50%;
   height: 100%;
-  margin-left: 25%; }
+  margin-left: 15%; }
 
 .servimg {
   margin: 10px auto;
@@ -46,38 +46,38 @@ footer {
   width: 60%;
   height: 100%;
   grid-template-columns: auto auto;
-  grid-template-rows: auto 100px; }
+  grid-template-rows: auto 15%; }
 
 /*Botones Servicios*/
 .botones:hover {
   display: flex;
   align-items: center;
-  height: 100%;
-  width: 100%;
+  height: 70%;
+  width: 80%;
   justify-content: center;
-  gap: 100px; }
+  gap: 20px; }
 
 .botones::before {
-  height: 380%;
+  height: 100%;
   background-color: white; }
 
 .boton1 {
   background-color: green;
-  font-size: 22px;
+  font-size: 1rem;
   border-right: 30%;
   border-radius: 30%;
   font-weight: green; }
 
 .boton2 {
   background-color: red;
-  font-size: 22px;
+  font-size: 1rem;
   border-right: 30%;
   border-radius: 30%;
   font-weight: red; }
 
 .boton3 {
   background-color: pink;
-  font-size: 22px;
+  font-size: 1rem;
   border-right: 30%;
   border-radius: 30%; }
 
@@ -97,7 +97,7 @@ footer {
 
 .seccion p {
   width: 100%;
-  height: 80%;
+  height: 100%;
   color: black;
   display: flex;
   align-items: center;
@@ -116,21 +116,22 @@ footer {
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  width: 100%;
+  width: 70%;
   height: 100%;
-  gap: 20px; }
+  gap: 20px;
+  margin-left: 15%; }
 
 .divimg {
   margin: 0 auto;
   padding-top: 20px; }
 
 .pc1 {
-  height: 60%;
+  height: 70%;
   width: 50%;
   border: 4px solid black; }
 
 .pc2 {
-  height: 60%;
+  height: 70%;
   width: 50%;
   border: 4px solid black; }
 
@@ -140,9 +141,8 @@ footer {
   align-items: center;
   justify-content: center;
   gap: 20px;
-  font-size: 2rem;
   padding: 10px;
-  margin: 1,5rem;
+  margin: 1,3rem;
   padding-top: 30px; }
   .limpen .limpieza {
     background-color: #2E86C1;
