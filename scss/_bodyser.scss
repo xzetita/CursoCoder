@@ -1,5 +1,10 @@
 @import "_variables.scss";
 /* Encabezado*/
+
+.titulo{
+    display: flex;
+    justify-content: center;
+}
 .titserv {
     background-color: blue;
     color: red;
@@ -8,51 +13,25 @@
    align-items: center;
    width: 50%;
    height: 100%;
-   margin-left: 15%;
  }
  
 .servimg {
     margin: 10px auto;
     display: grid;
-    width: 60%;
+    width: 100%;
     height: 100%;
    grid-template-columns: $auto $auto;
    grid-template-rows: $auto 15%;
+   justify-content: center;
 }
 /*Botones Servicios*/
-.botones:hover { 
+.botones { 
     display: flex;
     align-items: center;
     height: 70%;
     width: 80%;
     justify-content: center;
     gap: 20px;
+    font-size: 1rem;
     
-}
-.botones::before{
-    height: 100%;
-    background-color: white;
-}
-.boton1 {
-    background-color: green;
-    font-size: 1rem;
-    border-right: 30%;
-    border-radius: 30%;
-    font-weight: green;
-
-}
-.boton2 {
-    background-color: red;
-    font-size: 1rem;
-    border-right: 30%;
-    border-radius: 30%;
-    font-weight: red;
-
-}
-.boton3 {
-    background-color: pink;
-    font-size: 1rem;
-    border-right: 30%;
-    border-radius: 30%;
-
 }

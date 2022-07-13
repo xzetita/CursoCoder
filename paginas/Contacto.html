@@ -4,8 +4,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nosotros</title>
-    <link rel="icon" href="imagen/favicon.png">
+    <title>Contacto</title>
+    <meta name="title" content="GamerTech Martín">
+    <meta name="description" content="Reparación y servicios a sus computadoras. Venta de hardware para optimizarlas!">
+    <meta name="language" content="español,español argentina,es,ES">
+    <link rel="icon" href="../imagen/favicon.jpg">
     <link rel="preconnect" href="https://fonts.googleapis.com/%22%3E">
 <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@1,300&display=swap" rel="stylesheet">
@@ -47,21 +50,24 @@
 </header>
 
 <body>
-    <main class="mainct">
-    
-    <fieldset class="fs1">Datos personales</fieldset>
-    <div> 
-    <input class="boton4" type="text"placeholder="Nombre completo"> 
-    </div>
-    <div>
-    <input class="boton5" type="email" placeholder="Correo electronico">
-    </div>
-   <div>
-    <input class="boton6" type="text" placeholder="Motivo de soporte tecnico">
-   </div>
-   <button type="button" class="boton7">Enviar Solicitud</button>
-   <button type="button" class="btn btn-outline-dark">resetear</button>
-</main>
+  <div class="contactos">
+  <div class="mb-3">
+    <label for="exampleFormControlInput1" class="form-label">Correo electrónico</label>
+    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="nombre@ejemplo.com"
+    minlength="11" required {@} title="Su correo debe llevar @" >
+  </div>
+  <div class="mb-3">
+    <label for="exampleFormControlTextarea1" class="form-label">Descripción</label
+      minlength="11" maxlength="300">
+    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+  </div>
+  <div class="mb-3">
+    <label for="formFile" class="form-label">Muestrenos su equipo</label>
+    <input class="form-control" type="file" id="formFile">
+  </div>
+  <input type="submit" value="enviar" >
+  <input type="submit" value="Reset">
+</div>
 
    <div
     class="publicidad">
@@ -77,13 +83,13 @@
         <h3>Otras secciones</h3>
         <div
         class="foot">
-        <a class="negrita" href="../Index.html">Inicio</a>
-    <a class="negrita" href="../paginas/Nosotros.html">Nosotros</a>
-    <a class="negrita" href="../paginas/Galeria.html">Galeria</a>
-    <a class="negrita" href="../paginas/Servicios.html">Servicios</a>
+        <a class="negrita" href="../index.html">Inicio</a>
+    <a class="negrita" href="./Nosotros.html">Nosotros</a>
+    <a class="negrita" href="./Galeria.html">Galeria</a>
+    <a class="negrita" href="./Servicios.html">Servicios</a>
     </div>
         <br>
-        Queres contactarnos? <a class="negrita" href="../paginas/Contacto.html">Contactanos</a>
+        Queres contactarnos? <a class="negrita" href="./Contacto.html">Contactanos</a>
         <p class="negrita">
             Todos los derechos reservados
         </p>
