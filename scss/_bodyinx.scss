@@ -30,7 +30,12 @@
     width: 100%;
     height: 100%;
     gap: 20px;
+    padding: 5px;
     
+}
+.indimagenes:hover{
+    background-color: blue;
+    transition: 3s;
 }
 .divimg {
     margin: 0 auto;
@@ -38,13 +43,13 @@
 }
 
 .pc1 {
-    height: 70%;
-    width: 50%;
+    height: 45%;
+    width: 45%;
     border: 4px solid black;
 }
 .pc2 {
-    height: 70%;
-    width: 50%;
+    height: 45%;
+    width: 45%;
     border: 4px solid black ;
 }
 .limpen {

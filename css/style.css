@@ -68,6 +68,17 @@ footer {
   justify-content: end;
   flex-direction: row; }
 
+.seccion {
+  background-color: black;
+  color: pink;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: 2sec; }
+
+.seccion:hover {
+  color: blue; }
+
 /* Orden de los encabezados e imagenes*/
 /*Encabezado*/
 .parra {
@@ -99,20 +110,25 @@ footer {
   justify-content: center;
   width: 100%;
   height: 100%;
-  gap: 20px; }
+  gap: 20px;
+  padding: 5px; }
+
+.indimagenes:hover {
+  background-color: blue;
+  transition: 3s; }
 
 .divimg {
   margin: 0 auto;
   padding-top: 20px; }
 
 .pc1 {
-  height: 70%;
-  width: 50%;
+  height: 45%;
+  width: 45%;
   border: 4px solid black; }
 
 .pc2 {
-  height: 70%;
-  width: 50%;
+  height: 45%;
+  width: 45%;
   border: 4px solid black; }
 
 .limpen {
@@ -140,6 +156,31 @@ footer {
       display: flex;
       color: #e70ddc;
       background-color: black; }
+
+/* Galeria*/
+.contenedorPadre {
+  margin: 10px auto;
+  display: grid;
+  width: 60%;
+  height: 100%;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: auto auto 100px;
+  gap: 10px; }
+
+.contenedorImagenes {
+  width: 100%;
+  height: 100%;
+  border: 3px solid black;
+  border-radius: 20px; }
+
+.contenedorImagenes img {
+  width: 100%;
+  height: 100%;
+  border-radius: 20px; }
+
+.contenedorImagenes:hover {
+  background-color: blue;
+  transition: 2s; }
 
 .contactos {
   background-color: #46833a;
@@ -297,28 +338,6 @@ footer {
   box-shadow: -2px 0px 68px -7px rgba(0, 0, 0, 0.75);
   -webkit-box-shadow: -2px 0px 68px -7px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: -2px 0px 68px -7px rgba(0, 0, 0, 0.75); }
-
-/* Galeria*/
-.contenedorPadre {
-  margin: 10px auto;
-  display: grid;
-  width: 60%;
-  height: 100%;
-  grid-template-columns: auto auto auto;
-  grid-template-rows: auto auto 100px;
-  gap: 10px; }
-
-.contenedorImagenes {
-  width: 100%;
-  height: 100%;
-  border: 3px solid black;
-  border-radius: 20px; }
-
-.contenedorImagenes img {
-  width: 100%;
-  height: 100%;
-  border-radius: 20px;
-  /*Footer*/ }
 
 @media screen and (max-width: 800px) {
   .negrita {

@@ -5,3 +5,15 @@
     flex-direction: row;
     
    }
+   .seccion {
+    background-color: black;
+    color: pink;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: 2sec;
+   }
+   .seccion:hover{
+    color: blue;
+
+   }
